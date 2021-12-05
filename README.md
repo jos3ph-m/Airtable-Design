@@ -1,5 +1,9 @@
 ## Setup
 
+- folders/files/imports
+- css (styled components)
+- error page, footer, seo
+
 ## Styled Components
 
 VS-Extension
