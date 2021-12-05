@@ -13,6 +13,7 @@ export const wrapRootElement = ({ element }) => {
   return (
     <>
       <GlobalStyle />
+      {element}
     </>
   )
 }
