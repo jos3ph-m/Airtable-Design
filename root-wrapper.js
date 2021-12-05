@@ -177,6 +177,6 @@ export const wrapRootElement = ({ element }) => {
     <>
       <GlobalStyle />
       {element}
-    </>s
+    </>
   )
 }
