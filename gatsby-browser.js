@@ -1,1 +1,1 @@
-import { wrapRootElement } from './root-wrapper'
+import { wrapRootElement as wrap } from './root-wrapper'
