@@ -9,4 +9,6 @@ h2{
 }
 `
 
-export const wrapRootElement = ({}) => {}
+export const wrapRootElement = ({ element }) => {
+  return <></>
+}
