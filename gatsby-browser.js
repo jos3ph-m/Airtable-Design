@@ -8,3 +8,5 @@ h2{
   font-size:4rem;
 }
 `
+
+export const wrapRootElement = {}
