@@ -70,14 +70,3 @@ require('dotenv').config({
 ## Algolia
 
 [algolia](https://www.algolia.com/);
-
-## Project Steps
-
-- cover setup
-- styled components global css
-- basic gatsby background image
-- basic navbar
-- about
-- airtable
-- connect to airtable
-- env vars
