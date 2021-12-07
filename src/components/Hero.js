@@ -13,7 +13,7 @@ const Hero = () => {
       />
       <div className="info">
         <article>
-          <h3></h3>
+          <h3>If You Can Dream It, We Can Create It</h3>
         </article>
       </div>
     </Wrapper>
