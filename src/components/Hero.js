@@ -15,6 +15,7 @@ const Hero = () => {
         <article>
           <h3>If You Can Dream It, We Can Create It</h3>
           <h1>LET YOUR HOME BE UNIQUE AND STYLISH</h1>
+          <Link />
         </article>
       </div>
     </Wrapper>
