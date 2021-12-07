@@ -11,7 +11,11 @@ const Hero = () => {
         className="img"
         alt="color palette"
       />
-      <div className="info"></div>
+      <div className="info">
+        <article>
+          <h3></h3>
+        </article>
+      </div>
     </Wrapper>
   )
 }
