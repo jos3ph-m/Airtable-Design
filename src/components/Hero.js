@@ -11,6 +11,7 @@ const Hero = () => {
         className="img"
         alt="color palette"
       />
+      <div className="info"></div>
     </Wrapper>
   )
 }
