@@ -14,6 +14,7 @@ const Hero = () => {
       <div className="info">
         <article>
           <h3>If You Can Dream It, We Can Create It</h3>
+          <h1></h1>
         </article>
       </div>
     </Wrapper>
