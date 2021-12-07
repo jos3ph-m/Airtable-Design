@@ -3,9 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 const Hero = () => {
-  return (
-    <h2>hero component</h2>
-  )
+  return <Wrapper>hero component</Wrapper>
 }
 
 const Wrapper = styled.section`
