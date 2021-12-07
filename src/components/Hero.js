@@ -5,7 +5,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Hero = () => {
   return (
     <Wrapper>
-      <StaticImage src="../images/mainBcg.png" layout="fullWidth" />
+      <StaticImage
+        src="../images/mainBcg.png"
+        layout="fullWidth"
+        className="img"
+        alt="color palette"
+      />
     </Wrapper>
   )
 }
