@@ -17,6 +17,9 @@ const Navbar = () => {
           <li>
             <button>developers</button>
           </li>
+          <li>
+            <button>company</button>
+          </li>
         </ul>
       </div>
     </Wrapper>
