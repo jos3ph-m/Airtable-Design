@@ -3,7 +3,11 @@ import styled from 'styled-components'
 import Title from './Title'
 import services from '../constants/services'
 const About = () => {
-  return <Wrapper></Wrapper>
+  return (
+    <Wrapper>
+      <h6></h6>
+    </Wrapper>
+  )
 }
 const Wrapper = styled.section`
   .section-center {
