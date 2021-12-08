@@ -6,9 +6,7 @@ import { Link } from 'gatsby'
 import NavLink from './NavLink'
 import { GatsbyContext } from '../context/context'
 const Navbar = () => {
-  return (
-   <h2>navbar component</h2>
-  )
+  return <Wrapper></Wrapper>
 }
 
 const Wrapper = styled.nav`
