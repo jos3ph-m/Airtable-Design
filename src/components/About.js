@@ -5,7 +5,7 @@ import services from '../constants/services'
 const About = () => {
   return (
     <Wrapper>
-      <h6></h6>
+      <h6>title</h6>
     </Wrapper>
   )
 }
