@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Wrapper>
       <div className="nav-center">
-        <div className="nav-links"></div>
+        <div className="nav-header"></div>
         <ul className="nav-links">
           <li>
             <button>products</button>
