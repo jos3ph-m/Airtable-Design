@@ -10,6 +10,7 @@ const Navbar = () => {
     <Wrapper>
       <div className="nav-header">
         <div className="nav-links"></div>
+        <ul className="nav-links"></ul>
       </div>
     </Wrapper>
   )
