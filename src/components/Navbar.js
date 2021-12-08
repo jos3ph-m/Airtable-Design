@@ -12,6 +12,9 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/">
             <img src={logo} alt="design" />
+            <button className="toggle-btn">
+              <GoThreeBars />
+            </button>
           </Link>
         </div>
         <ul className="nav-links">
