@@ -12,10 +12,10 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/">
             <img src={logo} alt="design" />
-            <button className="toggle-btn">
-              <GoThreeBars />
-            </button>
           </Link>
+          <button className="toggle-btn">
+            <GoThreeBars />
+          </button>
         </div>
         <ul className="nav-links">
           <li>
