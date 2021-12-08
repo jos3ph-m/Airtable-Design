@@ -8,7 +8,7 @@ import { GatsbyContext } from '../context/context'
 const Navbar = () => {
   return (
     <Wrapper>
-      <div className="nav-center"></div>
+      <div className="nav-header"></div>
     </Wrapper>
   )
 }
