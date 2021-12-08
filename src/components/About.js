@@ -6,6 +6,7 @@ const About = () => {
   return (
     <Wrapper>
       <h6>title</h6>
+      <div className="section-center"></div>
     </Wrapper>
   )
 }
