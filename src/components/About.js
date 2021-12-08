@@ -6,7 +6,9 @@ const About = () => {
   return (
     <Wrapper>
       <h6>title</h6>
-      <div className="section-center">{services.map(() => {})}</div>
+      <div className="section-center">
+        {services.map(({ id, icon, label, text }) => {})}
+      </div>
     </Wrapper>
   )
 }
