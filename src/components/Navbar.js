@@ -11,7 +11,9 @@ const Navbar = () => {
       <div className="nav-header">
         <div className="nav-links"></div>
         <ul className="nav-links">
-          <li></li>
+          <li>
+            <button></button>
+          </li>
         </ul>
       </div>
     </Wrapper>
