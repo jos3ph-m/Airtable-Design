@@ -4,7 +4,7 @@ import Title from './Title'
 import services from '../constants/services'
 const About = () => {
   return (
-    <Wrapper>
+    <Wrapper className="section">
       <Title title="about us" />
       <div className="section-center">
         {services.map(({ id, icon, label, text }) => {
