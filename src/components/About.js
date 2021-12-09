@@ -11,6 +11,7 @@ const About = () => {
           return (
             <article key={id}>
               <span>{icon}</span>
+              <h4>{label}</h4>
             </article>
           )
         })}
