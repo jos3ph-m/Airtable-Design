@@ -8,7 +8,11 @@ const About = () => {
       <h6>title</h6>
       <div className="section-center">
         {services.map(({ id, icon, label, text }) => {
-          return <article key={id}></article>
+          return (
+            <article key={id}>
+              <span>{icon}</span>
+            </article>
+          )
         })}
       </div>
     </Wrapper>
