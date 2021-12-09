@@ -12,6 +12,7 @@ const About = () => {
             <article key={id}>
               <span>{icon}</span>
               <h4>{label}</h4>
+              <p>{text}</p>
             </article>
           )
         })}
