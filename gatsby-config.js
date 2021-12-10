@@ -34,6 +34,7 @@ module.exports = {
         tables: [
           {
             baseId: 'base id',
+            tableName: `Projects`,
           },
         ],
       },
