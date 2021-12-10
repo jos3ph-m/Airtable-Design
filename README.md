@@ -2,7 +2,7 @@
 
 - folders/files/imports
 - css (styled components)
-- error page, footer, seo
+- error page, footer, seo etc
 
 ## Styled Components
 
