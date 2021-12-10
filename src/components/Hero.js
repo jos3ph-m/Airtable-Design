@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="info">
         <article>
           <h3>If You Can Dream It, We'll create it</h3>
-          <h1>LET YOUR HOME BE UNIQUE AND STYLISH</h1>
+          <h1>Freshen things up. A bit.</h1>
           <Link to="/rojects">Projects</Link>
         </article>
       </div>
