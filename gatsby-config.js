@@ -33,7 +33,7 @@ module.exports = {
         concurrency: 5,
         tables: [
           {
-            baseId: 'base id',
+            baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
             tableName: `Projects`,
             mapping: { image: `fileNode` },
           },
