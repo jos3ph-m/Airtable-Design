@@ -28,6 +28,9 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: 'api key',
+      },
     },
   ],
 }
