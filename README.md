@@ -63,7 +63,7 @@ require('dotenv').config({
 })
 ```
 
-#### ROOT!!!!!!!!!!!!!!!
+#### ROOT
 
 .env.development
 
