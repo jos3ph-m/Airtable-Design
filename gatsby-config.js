@@ -31,6 +31,11 @@ module.exports = {
       options: {
         apiKey: 'api key',
         concurrency: 5,
+        tables: [
+          {
+            baseId: 'base id',
+          },
+        ],
       },
     },
   ],
