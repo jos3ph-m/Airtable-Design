@@ -35,6 +35,7 @@ module.exports = {
           {
             baseId: 'base id',
             tableName: `Projects`,
+            mapping: { image: `fileNode` },
           },
         ],
       },
