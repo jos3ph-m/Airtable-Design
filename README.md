@@ -66,6 +66,7 @@ require('dotenv').config({
 #### ROOT
 
 .env.development
+.env.production
 
 ## Algolia
 
