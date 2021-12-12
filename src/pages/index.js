@@ -19,4 +19,30 @@ const HomePage = () => {
   )
 }
 
+export const query = graphql`
+  {
+    allAirtable(
+      filter: { table: { eq: "Projects" } }
+      limit: 3
+      sort: { fields: data___date, order: DESC }
+    ) {
+      nodes {
+        id
+        data {
+          date
+          Name
+          type
+          image {
+            localFiles {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
 export default HomePage
