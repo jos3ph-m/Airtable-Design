@@ -13,6 +13,7 @@ const Projects = ({ projects: data, title, page }) => {
   return (
     <Wrapper className="section">
       <Title title={title || 'projects'} />
+      {/* search button will go here */}
     </Wrapper>
   )
 }
