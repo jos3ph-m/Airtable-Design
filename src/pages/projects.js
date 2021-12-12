@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { Layout, Projects, Algolia } from '../components'
 
-const ProjectsPage = ({ projects: data }) => {
+const ProjectsPage = ({ projects: data, title, page }) => {
   return <h2>projects page</h2>
 }
 
