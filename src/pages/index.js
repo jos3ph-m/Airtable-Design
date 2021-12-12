@@ -10,7 +10,7 @@ import {
   GridProjects,
 } from '../components'
 
-const HomePage = () => {
+const HomePage = ({ data }) => {
   return (
     <Layout>
       <Hero />
