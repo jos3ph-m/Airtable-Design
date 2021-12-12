@@ -10,7 +10,7 @@ const Projects = ({ projects: data, title, page }) => {
 
   // more logic here
 
-  return <h2>projects</h2>
+  return <Wrapper className="section"></Wrapper>
 }
 
 const Wrapper = styled.section`
