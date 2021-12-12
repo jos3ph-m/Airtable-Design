@@ -5,12 +5,8 @@ import styled from 'styled-components'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import SearchButtons from './SearchButtons'
 
-const Projects = () => {
-  
-
-  return (
-    <h2>projects</h2>
-  )
+const Projects = ({ projects: data, title, page }) => {
+  return <h2>projects</h2>
 }
 
 const Wrapper = styled.section`
