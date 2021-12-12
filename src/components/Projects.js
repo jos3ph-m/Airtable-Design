@@ -8,6 +8,8 @@ import SearchButtons from './SearchButtons'
 const Projects = ({ projects: data, title, page }) => {
   const [projects, setProjects] = React.useState(data)
 
+  // more logic here
+
   return <h2>projects</h2>
 }
 
