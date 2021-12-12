@@ -6,6 +6,8 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import SearchButtons from './SearchButtons'
 
 const Projects = ({ projects: data, title, page }) => {
+  const [projects, setProjects] = React.useState(data)
+
   return <h2>projects</h2>
 }
 
