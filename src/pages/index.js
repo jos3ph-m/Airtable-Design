@@ -18,7 +18,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <Hero />
       <About />
-      <Projects project={projects} />
+      <Projects project={projects} title="latest projects" />
     </Layout>
   )
 }
