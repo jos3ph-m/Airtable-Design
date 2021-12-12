@@ -11,6 +11,7 @@ import {
 } from '../components'
 
 const HomePage = ({ data }) => {
+  console.log(data)
   return (
     <Layout>
       <Hero />
