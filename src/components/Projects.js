@@ -10,7 +10,11 @@ const Projects = ({ projects: data, title, page }) => {
 
   // more logic here
 
-  return <Wrapper className="section"></Wrapper>
+  return (
+    <Wrapper className="section">
+      <Title title={title || 'projects'} />
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.section`
