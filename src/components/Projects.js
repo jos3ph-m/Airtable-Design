@@ -14,7 +14,11 @@ const Projects = ({ projects: data, title, page }) => {
     <Wrapper className="section">
       <Title title={title || 'projects'} />
       {/* search button will go here */}
-      <div className="section-center">{projects.map(item => {})}</div>
+      <div className="section-center">
+        {projects.map(item => {
+          const { id } = item
+        })}
+      </div>
       {!page && (
         <Link to="/projects" className="btn">
           all projects
