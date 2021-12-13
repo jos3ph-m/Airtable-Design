@@ -15,7 +15,7 @@ const Projects = ({ projects: data, title, page }) => {
       <Title title={title || 'projects'} />
       {/* search button will go here */}
       <div className="section-center"></div>
-      {!page && <Link></Link>}
+      {!page && <Link to="/projects"></Link>}
     </Wrapper>
   )
 }
