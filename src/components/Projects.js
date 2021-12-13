@@ -14,6 +14,7 @@ const Projects = ({ projects: data, title, page }) => {
     <Wrapper className="section">
       <Title title={title || 'projects'} />
       {/* search button will go here */}
+      <div className="section-center"></div>
     </Wrapper>
   )
 }
