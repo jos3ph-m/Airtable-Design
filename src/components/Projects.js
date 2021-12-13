@@ -13,11 +13,20 @@ const Projects = ({ projects: data, title, page }) => {
   return (
     <Wrapper className="section">
       <Title title={title || 'projects'} />
-      {/* search button will go here */}
+      {/* search buttons here */}
       <div className="section-center">
         {projects.map(item => {
           const { id } = item
           const { name, type, image } = item.data
+          return (
+            <article key={id}>
+              <div className="container">
+                <GatsbyImage
+                  image={getImage(image.localFiles[0])}
+                ></GatsbyImage>
+              </div>
+            </article>
+          )
         })}
       </div>
       {!page && (
