@@ -46,6 +46,28 @@ export const query = graphql`
         }
       }
     }
+    customers: allAirtable(filter: { table: { eq: "Customers" } }) {
+      nodes {
+        data {
+          name
+          quote
+          title
+          image {
+            localFiles {
+              childImageSharp {
+                gatsbyImageData(
+                  layout: FIXED
+                  width: 150
+                  height: 150
+                  placeholder: TRACED_SVG
+                )
+              }
+            }
+          }
+        }
+        id
+      }
+    }
   }
 `
 
