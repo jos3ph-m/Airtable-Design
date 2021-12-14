@@ -26,7 +26,9 @@ const Projects = ({ projects: data, title, page }) => {
                   alt={name}
                   className="img"
                 ></GatsbyImage>
-                <div className="info"></div>
+                <div className="info">
+                  <p>- {type} -</p>
+                </div>
               </div>
             </article>
           )
