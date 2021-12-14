@@ -23,6 +23,8 @@ const Projects = ({ projects: data, title, page }) => {
               <div className="container">
                 <GatsbyImage
                   image={getImage(image.localFiles[0])}
+                  alt={name}
+                  className="img"
                 ></GatsbyImage>
               </div>
             </article>
