@@ -13,6 +13,7 @@ import {
 const HomePage = ({ data }) => {
   const {
     allAirtable: { nodes: projects },
+    customers: { nodes },
   } = data
   return (
     <Layout>
