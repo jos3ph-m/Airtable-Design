@@ -28,6 +28,7 @@ const Projects = ({ projects: data, title, page }) => {
                 ></GatsbyImage>
                 <div className="info">
                   <p>- {type} -</p>
+                  <h3>{name}</h3>
                 </div>
               </div>
             </article>
