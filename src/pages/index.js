@@ -19,7 +19,7 @@ const HomePage = ({ data }) => {
       <Hero />
       <About />
       <Projects projects={projects} title="latest projects" />
-      <Slider />
+      <Slider customers={} />
     </Layout>
   )
 }
