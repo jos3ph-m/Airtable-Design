@@ -1,7 +1,5 @@
 ## Setup
 
-## Styled Components
-
 VS-Extension
 
 vscode-styled-components
