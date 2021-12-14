@@ -43,10 +43,6 @@ Both files
 
 ```
 
-## Airtable
-
-[airtable](https://airtable.com/invite/r/h4p0v9Vg)
-
 ## env variables
 
 gatsby-config
