@@ -9,7 +9,7 @@ const Survey = () => {
   const [loading, setLoading] = useState(true)
 
   const getRecords = async () => {
-    const records = await base('Survey')
+    const records = await base('Survey').select({})
   }
 
   useEffect(() => {
