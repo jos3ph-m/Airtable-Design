@@ -26,7 +26,7 @@ const Survey = () => {
   useEffect(() => {
     getRecords()
   }, [])
-  return <h2>survey component</h2>
+  return <Wrapper>survey component</Wrapper>
 }
 
 const Wrapper = styled.section`
