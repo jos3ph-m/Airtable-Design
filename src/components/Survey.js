@@ -5,6 +5,7 @@ import base from './Airtable'
 import { FaVoteYea } from 'react-icons/fa'
 
 const Survey = () => {
+  const [items, setItems] = useState([])
   return <h2>survey component</h2>
 }
 
