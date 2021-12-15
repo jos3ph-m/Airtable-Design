@@ -49,7 +49,7 @@ const Survey = () => {
                     <h4>{name}</h4>
                     <p>{votes} votes</p>
                   </div>
-                  <button>
+                  <button onClick={()=>console.log('clicked me');}>
                     <FaVoteYea />
                   </button>
                 </li>
