@@ -13,12 +13,13 @@ const Survey = () => {
       .select({})
       .firstPage()
       .catch(err => console.log(err))
-    console.log(records)
+
     const newItems = records.map(record => {
       const { id, fields } = record
       return { id, fields }
     })
     setItems(newItems)
+    console.log(items)
     setLoading(false)
   }
 
