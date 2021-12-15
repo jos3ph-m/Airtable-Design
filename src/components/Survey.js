@@ -14,6 +14,10 @@ const Survey = () => {
       .firstPage()
       .catch(err => console.log(err))
     console.log(records)
+    const newItems = records.map(record => {
+      const { id, fields } = record
+      return { id, fields }
+    })
   }
 
   useEffect(() => {
