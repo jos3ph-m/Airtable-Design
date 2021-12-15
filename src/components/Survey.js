@@ -9,7 +9,11 @@ const Survey = () => {
   const [loading, setLoading] = useState(true)
 
   const getRecords = async () => {
-    const records = await base('Survey').select({}).firstPage()
+    const records = await base('Survey')
+      .select({})
+      .firstPage()
+      .catch(err => console.log(err))
+    console.log(records)
   }
 
   useEffect(() => {
