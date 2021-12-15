@@ -31,6 +31,19 @@ const Survey = () => {
       <div className="container">
         <Title title="survey"></Title>
         <h3>most important room in the house?</h3>
+        {loading ? (
+          <h3>loading...</h3>
+        ) : (
+          <ul>
+            {items.map(item => {
+              const {
+                id,
+                fields: { name, votes },
+              } = item
+              return <li key={id}></li>
+            })}
+          </ul>
+        )}
       </div>
     </Wrapper>
   )
