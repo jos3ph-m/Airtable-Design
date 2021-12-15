@@ -10,7 +10,9 @@ const Survey = () => {
 
   const getRecords = async () => {}
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    getRecords()
+  }, [])
   return <h2>survey component</h2>
 }
 
