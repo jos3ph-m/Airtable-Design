@@ -8,7 +8,9 @@ const Survey = () => {
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true)
 
-  const getRecords = async () => {}
+  const getRecords = async () => {
+    const records = await base('Survey')
+  }
 
   useEffect(() => {
     getRecords()
