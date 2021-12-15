@@ -28,7 +28,9 @@ const Survey = () => {
   }, [])
   return (
     <Wrapper className="section">
-      <div className="container"></div>
+      <div className="container">
+        <Title title="survey"></Title>
+      </div>
     </Wrapper>
   )
 }
