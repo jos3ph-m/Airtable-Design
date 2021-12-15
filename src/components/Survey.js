@@ -49,6 +49,9 @@ const Survey = () => {
                     <h4>{name}</h4>
                     <p>{votes} votes</p>
                   </div>
+                  <button>
+                    <FaVoteYea />
+                  </button>
                 </li>
               )
             })}
