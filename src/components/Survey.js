@@ -26,7 +26,7 @@ const Survey = () => {
   useEffect(() => {
     getRecords()
   }, [])
-  return <Wrapper></Wrapper>
+  return <Wrapper className="section"></Wrapper>
 }
 
 const Wrapper = styled.section`
