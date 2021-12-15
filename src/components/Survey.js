@@ -40,7 +40,13 @@ const Survey = () => {
                 id,
                 fields: { name, votes },
               } = item
-              return <li key={id}></li>
+              return (
+                <li key={id}>
+                  <div className="key">
+                    {name.toUpperCase().substring(0, 2)}
+                  </div>
+                </li>
+              )
             })}
           </ul>
         )}
