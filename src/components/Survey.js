@@ -46,7 +46,8 @@ const Survey = () => {
                     {name.toUpperCase().substring(0, 2)}
                   </div>
                   <div>
-                    <h4></h4>
+                    <h4>{name}</h4>
+                    <p>{votes} votes</p>
                   </div>
                 </li>
               )
