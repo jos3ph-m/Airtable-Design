@@ -7,6 +7,10 @@ import { FaVoteYea } from 'react-icons/fa'
 const Survey = () => {
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true)
+
+  const getRecords = async () => {}
+
+  useEffect(() => {}, [])
   return <h2>survey component</h2>
 }
 
