@@ -18,6 +18,7 @@ const Survey = () => {
       const { id, fields } = record
       return { id, fields }
     })
+    setItems(newItems)
   }
 
   useEffect(() => {
