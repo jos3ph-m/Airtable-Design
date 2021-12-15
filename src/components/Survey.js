@@ -3,12 +3,10 @@ import Title from './Title'
 import styled from 'styled-components'
 import base from './Airtable'
 import { FaVoteYea } from 'react-icons/fa'
+console.log(base)
 
 const Survey = () => {
- 
-  return (
-   <h2>survey component</h2>
-  )
+  return <h2>survey component</h2>
 }
 
 const Wrapper = styled.section`
