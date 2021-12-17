@@ -25,7 +25,11 @@ const Survey = () => {
 
   const giveVote = async id => {
     setLoading(true)
-    const tempItems = [...items].map(item => {})
+    const tempItems = [...items].map(item => {
+      if (item.id === id) {
+      } else {
+      }
+    })
   }
 
   useEffect(() => {
