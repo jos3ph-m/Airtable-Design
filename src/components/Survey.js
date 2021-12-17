@@ -28,7 +28,7 @@ const Survey = () => {
     const tempItems = [...items].map(item => {
       if (item.id === id) {
         let { id, fields = item }
-        fields = { ...fields }
+        fields = { ...fields, votes: fields.votes + 1 }
       } else {
       }
     })
