@@ -34,7 +34,7 @@ const Survey = () => {
         return item
       }
     })
-    const records = await base('')
+    const records = await base('Survey').update(tempItems)
   }
 
   useEffect(() => {
