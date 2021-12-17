@@ -23,7 +23,9 @@ const Survey = () => {
     setLoading(false)
   }
 
-  const giveVote = async id => {}
+  const giveVote = async id => {
+    setLoading(true)
+  }
 
   useEffect(() => {
     getRecords()
