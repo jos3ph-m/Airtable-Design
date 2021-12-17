@@ -34,6 +34,7 @@ const Survey = () => {
         return item
       }
     })
+    const records = await base('')
   }
 
   useEffect(() => {
