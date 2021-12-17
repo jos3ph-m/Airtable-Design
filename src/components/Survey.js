@@ -27,6 +27,8 @@ const Survey = () => {
     setLoading(true)
     const tempItems = [...items].map(item => {
       if (item.id === id) {
+        let { id, fields = item }
+        fields = { ...fields }
       } else {
       }
     })
