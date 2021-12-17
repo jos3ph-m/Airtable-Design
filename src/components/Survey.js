@@ -29,6 +29,7 @@ const Survey = () => {
       if (item.id === id) {
         let { id, fields = item }
         fields = { ...fields, votes: fields.votes + 1 }
+        return { id, fields }
       } else {
       }
     })
