@@ -31,6 +31,7 @@ const Survey = () => {
         fields = { ...fields, votes: fields.votes + 1 }
         return { id, fields }
       } else {
+        return item
       }
     })
   }
