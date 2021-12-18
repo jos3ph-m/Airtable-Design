@@ -9,6 +9,9 @@ const Projects = ({ projects: data, title, page }) => {
   const [projects, setProjects] = React.useState(data)
 
   // more logic here
+  const setBackToAll = () => {
+    setProjects(data)
+  }
 
   return (
     <Wrapper className="section">
