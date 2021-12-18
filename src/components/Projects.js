@@ -13,7 +13,7 @@ const Projects = ({ projects: data, title, page }) => {
   return (
     <Wrapper className="section">
       <Title title={title || 'projects'} />
-
+      {page && <SearchButtons />}
       <div className="section-center">
         {projects.map(item => {
           const { id } = item
