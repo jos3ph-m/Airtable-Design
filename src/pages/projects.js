@@ -11,6 +11,31 @@ const ProjectsPage = () => {
   )
 }
 
+export const query = graphql`
+  {
+    allAirtable(
+      filter: { table: { eq: "Projects" } }
+      sort: { fields: data___date, order: DESC }
+    ) {
+      nodes {
+        id
+        data {
+          date
+          name
+          type
+          image {
+            localFiles {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
 const Wrapper = styled.main`
   min-height: 100vh;
   background: var(--clr-grey-10);
