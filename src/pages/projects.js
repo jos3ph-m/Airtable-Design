@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { Layout, Projects, Algolia } from '../components'
 
-const ProjectsPage = () => {
+const ProjectsPage = ({ data }) => {
   const {
     allAirtable: { nodes: projects },
   } = data
