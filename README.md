@@ -16,19 +16,8 @@ here
 `
 ```
 
-Global Styles
-
-```jsx
-import { createGlobalStyle } from "styled-components"
-
-const GlobalStyle = createGlobalStyle`
-your
-global
-styles
-go here
-`
-
 Both files
+
 - gatsby-browser.js
 - gatsby-ssr.js
 
@@ -37,3 +26,4 @@ Both files
 ## Algolia
 
 [algolia](https://www.algolia.com/);
+```
