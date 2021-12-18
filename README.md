@@ -43,16 +43,6 @@ Both files
 
 ```
 
-## env variables
-
-gatsby-config
-
-```js
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-```
-
 ## Algolia
 
 [algolia](https://www.algolia.com/);
