@@ -4,7 +4,11 @@ import styled from 'styled-components'
 import { Layout, Projects, Algolia } from '../components'
 
 const ProjectsPage = () => {
-  return <Wrapper>projects page</Wrapper>
+  return (
+    <Wrapper>
+      <Layout></Layout>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.main`
