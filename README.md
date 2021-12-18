@@ -27,15 +27,6 @@ global
 styles
 go here
 `
-// wrap root element
-export const wrapRootElement = ({ element }) => {
-  return (
-    <>
-      <GlobalStyle />
-      {element}
-    </>
-  )
-}
 
 Both files
 - gatsby-browser.js
