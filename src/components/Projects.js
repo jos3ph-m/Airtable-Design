@@ -16,7 +16,13 @@ const Projects = ({ projects: data, title, page }) => {
   return (
     <Wrapper className="section">
       <Title title={title || 'projects'} />
-      {page && <SearchButtons projects={data} setProjects={setProjects} />}
+      {page && (
+        <SearchButtons
+          projects={data}
+          setProjects={setProjects}
+          setBackToAll={setBackToAll}
+        />
+      )}
       <div className="section-center">
         {projects.map(item => {
           const { id } = item
