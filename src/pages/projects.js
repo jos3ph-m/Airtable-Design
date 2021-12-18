@@ -9,7 +9,9 @@ const ProjectsPage = () => {
   } = data
   return (
     <Wrapper>
-      <Layout></Layout>
+      <Layout>
+        <Projects></Projects>
+      </Layout>
     </Wrapper>
   )
 }
