@@ -10,7 +10,7 @@ const ProjectsPage = () => {
   return (
     <Wrapper>
       <Layout>
-        <Projects></Projects>
+        <Projects title="our projects" projects={}></Projects>
       </Layout>
     </Wrapper>
   )
