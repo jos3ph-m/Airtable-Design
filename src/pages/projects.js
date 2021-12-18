@@ -4,6 +4,9 @@ import styled from 'styled-components'
 import { Layout, Projects, Algolia } from '../components'
 
 const ProjectsPage = () => {
+  const {
+    allAirtable: { nodes: projects },
+  } = data
   return (
     <Wrapper>
       <Layout></Layout>
