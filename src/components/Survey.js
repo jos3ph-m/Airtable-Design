@@ -51,7 +51,7 @@ const Survey = () => {
     <Wrapper className="section">
       <div className="container">
         <Title title="survey"></Title>
-        <h3>most important room in the house?</h3>(<h3>loading...</h3>) : (
+        <h3>most important room in the house?</h3>
         <ul>
           {items.map(item => {
             const {
@@ -72,7 +72,6 @@ const Survey = () => {
             )
           })}
         </ul>
-        )}
       </div>
     </Wrapper>
   )
