@@ -53,10 +53,6 @@ require('dotenv').config({
 })
 ```
 
-#### ROOT
-
-.env.development
-
 ## Algolia
 
 [algolia](https://www.algolia.com/);
