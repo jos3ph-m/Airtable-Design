@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Layout, Projects, Algolia } from '../components'
 
 const ProjectsPage = () => {
-  return <h2>projects page</h2>
+  return <Wrapper>projects page</Wrapper>
 }
 
 const Wrapper = styled.main`
