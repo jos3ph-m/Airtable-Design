@@ -1,7 +1,1 @@
-## Algolia
-
-[algolia](https://www.algolia.com/);
-
-```
-
-```
+# Airtable Design
