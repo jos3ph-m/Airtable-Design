@@ -14,7 +14,7 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
 
   // more functionality
 
-  return <h2>search buttons</h2>
+  return <Wrapper>search buttons</Wrapper>
 }
 const Wrapper = styled.section`
   display: flex;
