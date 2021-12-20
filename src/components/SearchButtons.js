@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const SearchButtons = () => {
+const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
   return <h2>search buttons</h2>
 }
 const Wrapper = styled.section`
