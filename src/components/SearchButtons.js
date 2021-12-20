@@ -17,7 +17,12 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
   return (
     <Wrapper>
       {types.map((type, typeIndex) => {
-        return <button key={typeIndex}></button>
+        return (
+          <button
+            key={typeIndex}
+            className={index === typeIndex ? 'active' : undefined}
+          ></button>
+        )
       })}
     </Wrapper>
   )
