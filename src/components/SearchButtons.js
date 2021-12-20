@@ -16,6 +16,10 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
     setIndex(typeIndex)
     if (type === 'all') {
       setBackToAll()
+    } else {
+      const tempProjects = projects.filter(
+        project => project.data.type === type
+      )
     }
   }
 
