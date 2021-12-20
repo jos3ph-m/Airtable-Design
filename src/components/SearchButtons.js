@@ -12,7 +12,9 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
     ),
   ]
 
-  // more functionality
+  const showProjects = (type, typeIndex) => {
+    setIndex
+  }
 
   return (
     <Wrapper>
