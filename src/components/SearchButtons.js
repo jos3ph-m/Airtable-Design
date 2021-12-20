@@ -14,7 +14,13 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
 
   // more functionality
 
-  return <Wrapper>{types.map(() => {})}</Wrapper>
+  return (
+    <Wrapper>
+      {types.map((type, typeIndex) => {
+        return <button key={typeIndex}></button>
+      })}
+    </Wrapper>
+  )
 }
 const Wrapper = styled.section`
   display: flex;
