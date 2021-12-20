@@ -3,9 +3,15 @@ import styled from 'styled-components'
 
 const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
   const [index, setIndex] = React.useState(0)
-  const types = projects.map(project => {
-    return project.data.type
-  })
+  const types = [
+    'all',
+    ...new Set(
+      projects.map(project => {
+        return project.data.type
+      })
+    ),
+  ]
+
   return <h2>search buttons</h2>
 }
 const Wrapper = styled.section`
