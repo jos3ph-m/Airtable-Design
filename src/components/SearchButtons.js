@@ -21,7 +21,7 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
           <button
             key={typeIndex}
             className={index === typeIndex ? 'active' : undefined}
-            onClick={}
+            onClick={() => showProjects(type, typeIndex)}
           >
             {type}
           </button>
