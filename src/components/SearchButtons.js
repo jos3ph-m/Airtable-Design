@@ -12,6 +12,8 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
     ),
   ]
 
+  // more functionality
+
   return <h2>search buttons</h2>
 }
 const Wrapper = styled.section`
