@@ -20,7 +20,7 @@ const airtableQuery = `
 }
 `
 
-function pageToAlgoliaRecord() {
+function pageToAlgoliaRecord({ id, data: { name, type, date, image } }) {
   return {}
 }
 
