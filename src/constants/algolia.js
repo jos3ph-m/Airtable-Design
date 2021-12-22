@@ -20,10 +20,12 @@ const airtableQuery = `
 }
 `
 
+function pageToAlgoliaRecord() {}
+
 const queries = [
   {
     query: airtableQuery,
-    transformer: ({ data }) => data.allAirtable.nodes.map(),
+    transformer: ({ data }) => data.allAirtable.nodes.map(pageToAlgoliaRecord),
   },
 ]
 
