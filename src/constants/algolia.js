@@ -20,7 +20,9 @@ const airtableQuery = `
 }
 `
 
-function pageToAlgoliaRecord() {}
+function pageToAlgoliaRecord() {
+  return {}
+}
 
 const queries = [
   {
