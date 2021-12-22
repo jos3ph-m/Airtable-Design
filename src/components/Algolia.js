@@ -19,6 +19,10 @@ const Search = () => {
   return (
     <section>
       <Title title="Algolia Search" />
+      <InstantSearch
+        indexName={process.env.GATSBY_ALGOLIA_INDEX_NAME}
+        searchClient={searchClient}
+      />
     </section>
   )
 }
