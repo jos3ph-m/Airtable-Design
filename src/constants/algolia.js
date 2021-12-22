@@ -23,7 +23,7 @@ const airtableQuery = `
 const queries = [
   {
     query: airtableQuery,
-    transformer: '',
+    transformer: ({ data }) => data.allAirtable.nodes.map(),
   },
 ]
 
