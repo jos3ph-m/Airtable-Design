@@ -1,6 +1,7 @@
 const queries = [
   {
     query: '',
+    transformer: '',
   },
 ]
 
