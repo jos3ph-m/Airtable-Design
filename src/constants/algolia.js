@@ -1,3 +1,6 @@
+const airtableQuery = `
+`
+
 const queries = [
   {
     query: '',
