@@ -10,12 +10,10 @@ import {
   connectHits,
 } from 'react-instantsearch-dom'
 
-
+const searchClient = algoliasearch()
 
 const Search = () => {
-  return (
-    <h2>algolia search</h2>
-  )
+  return <h2>algolia search</h2>
 }
 
 const Wrapper = styled.section`
