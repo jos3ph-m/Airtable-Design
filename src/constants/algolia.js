@@ -22,7 +22,7 @@ const airtableQuery = `
 
 const queries = [
   {
-    query: '',
+    query: airtableQuery,
     transformer: '',
   },
 ]
