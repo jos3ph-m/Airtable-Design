@@ -22,7 +22,10 @@ const Search = () => {
       <InstantSearch
         indexName={process.env.GATSBY_ALGOLIA_INDEX_NAME}
         searchClient={searchClient}
-      />
+      >
+        <SearchBox />
+        <Hits />
+      </InstantSearch>
     </section>
   )
 }
