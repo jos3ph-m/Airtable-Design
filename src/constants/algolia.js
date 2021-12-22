@@ -23,6 +23,10 @@ const airtableQuery = `
 function pageToAlgoliaRecord({ id, data: { name, type, date, image } }) {
   return {
     objectID: id,
+    name,
+    type,
+    date,
+    image: {},
   }
 }
 
