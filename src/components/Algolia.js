@@ -16,7 +16,11 @@ const searchClient = algoliasearch(
 )
 
 const Search = () => {
-  return <section>algolia search</section>
+  return (
+    <section>
+      <Title title="Algolia Search" />
+    </section>
+  )
 }
 
 const Wrapper = styled.section`
