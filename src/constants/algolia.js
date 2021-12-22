@@ -26,7 +26,7 @@ function pageToAlgoliaRecord({ id, data: { name, type, date, image } }) {
     name,
     type,
     date,
-    image: {},
+    image: { ...image.localFiles[0].childImageSharp.gatsbyImageData },
   }
 }
 
