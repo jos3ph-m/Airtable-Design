@@ -47,7 +47,9 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-algolia`,
-      options: {},
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+      },
     },
   ],
 }
