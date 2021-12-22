@@ -1,3 +1,7 @@
-const queries = [{}]
+const queries = [
+  {
+    query: '',
+  },
+]
 
 module.exports = queries
