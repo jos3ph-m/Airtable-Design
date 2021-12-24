@@ -17,7 +17,9 @@ const searchClient = algoliasearch(
 
 const NewHits = connectHits(({ hits }) => {
   console.log(hits)
-  return hits.map()
+  return hits.map(item => {
+    const { objectID, image, name } = item
+  })
 })
 
 const Search = () => {
