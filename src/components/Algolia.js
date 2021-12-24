@@ -15,7 +15,7 @@ const searchClient = algoliasearch(
   process.env.GATSBY_ALGOLIA_SEARCH_KEY
 )
 
-const NewHits = connectHits(() => {})
+const NewHits = connectHits(({ hits }) => {})
 
 const Search = () => {
   return (
