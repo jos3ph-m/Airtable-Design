@@ -22,7 +22,8 @@ const NewHits = connectHits(({ hits }) => {
 
     return (
       <article key={objectID}>
-        <GatsbyImage image={image} className="img"></GatsbyImage>
+        <GatsbyImage image={image} className="img" alt={name} />
+        <h4>{name}</h4>
       </article>
     )
   })
