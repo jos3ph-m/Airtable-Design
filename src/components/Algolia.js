@@ -38,7 +38,9 @@ const Search = () => {
         searchClient={searchClient}
       >
         <SearchBox />
-        <NewHits />
+        <Container className="section-center">
+          <NewHits />
+        </Container>
       </InstantSearch>
     </Wrapper>
   )
