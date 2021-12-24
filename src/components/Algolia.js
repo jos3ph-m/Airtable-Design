@@ -26,7 +26,7 @@ const Search = () => {
         searchClient={searchClient}
       >
         <SearchBox />
-        <Hits />
+        <NewHits />
       </InstantSearch>
     </Wrapper>
   )
