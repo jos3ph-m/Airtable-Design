@@ -16,7 +16,8 @@ const searchClient = algoliasearch(
 )
 
 const NewHits = connectHits(({ hits }) => {
-  return 'testing this out'
+  console.log(hits)
+  return 'hello world'
 })
 
 const Search = () => {
