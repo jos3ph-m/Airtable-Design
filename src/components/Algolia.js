@@ -20,7 +20,11 @@ const NewHits = connectHits(({ hits }) => {
   return hits.map(item => {
     const { objectID, image, name } = item
 
-    return <article key={objectID}></article>
+    return (
+      <article key={objectID}>
+        <GatsbyImage image={image} className="img"></GatsbyImage>
+      </article>
+    )
   })
 })
 
