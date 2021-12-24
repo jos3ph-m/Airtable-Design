@@ -19,6 +19,8 @@ const NewHits = connectHits(({ hits }) => {
   console.log(hits)
   return hits.map(item => {
     const { objectID, image, name } = item
+
+    return <article key={objectID}></article>
   })
 })
 
