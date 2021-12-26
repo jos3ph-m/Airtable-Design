@@ -177,7 +177,7 @@ export const wrapRootElement = ({ element }) => {
   return (
     <>
       <GlobalStyle />
-      {element}
+      <GatsbyProvider>{element}</GatsbyProvider>
     </>
   )
 }
