@@ -6,5 +6,5 @@ const GatsbyContext = React.createContext()
 // Provider, Consumer
 
 const GatsbyProvider = ({ children }) => {
-  return <GatsbyContext.Provider></GatsbyContext.Provider>
+  return <GatsbyContext.Provider>{children}</GatsbyContext.Provider>
 }
