@@ -12,3 +12,5 @@ const GatsbyProvider = ({ children }) => {
     </GatsbyContext.Provider>
   )
 }
+
+export { GatsbyContext, GatsbyProvider }
