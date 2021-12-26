@@ -5,4 +5,6 @@ const GatsbyContext = React.createContext()
 
 // Provider, Consumer
 
-const GatsbyProvider
+const GatsbyProvider = () => {
+  return <GatsbyContext.Provider></GatsbyContext.Provider>
+}
