@@ -6,6 +6,7 @@ const GatsbyContext = React.createContext()
 // Provider, Consumer
 
 const GatsbyProvider = ({ children }) => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   return (
     <GatsbyContext.Provider value="hello world">
       {children}
