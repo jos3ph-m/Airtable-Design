@@ -4,7 +4,11 @@ import { MdClose } from 'react-icons/md'
 import { Link } from 'gatsby'
 import { GatsbyContext } from '../context/context'
 const Sidebar = () => {
-  return <Wrapper>sidebar component</Wrapper>
+  return (
+    <Wrapper>
+      <div className="container"></div>
+    </Wrapper>
+  )
 }
 const Wrapper = styled.aside`
   position: fixed;
