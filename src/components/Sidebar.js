@@ -6,7 +6,7 @@ import { GatsbyContext } from '../context/context'
 const Sidebar = () => {
   return (
     <Wrapper>
-      <div className="container"></div>
+      <div className="container">sidebar component</div>
     </Wrapper>
   )
 }
