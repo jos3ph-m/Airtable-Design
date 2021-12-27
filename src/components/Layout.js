@@ -12,6 +12,7 @@ import Sidebar from './Sidebar'
 import { GatsbyContext } from '../context/context'
 
 const Layout = ({ children }) => {
+  const data = useContext
   return (
     <>
       <Navbar />
