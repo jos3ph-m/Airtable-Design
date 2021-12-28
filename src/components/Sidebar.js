@@ -12,6 +12,7 @@ const Sidebar = () => {
         <button>
           <MdClose className="icon" />
         </button>
+        <div className="links"></div>
       </div>
     </Wrapper>
   )
