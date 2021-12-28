@@ -18,7 +18,6 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       {isSidebarOpen && <Sidebar />}
-
       {children}
       <Footer />
     </>
