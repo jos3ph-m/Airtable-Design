@@ -10,7 +10,7 @@ const Sidebar = () => {
     <Wrapper>
       <div className="container">
         <button>
-          <MdClose />
+          <MdClose className="icon" />
         </button>
       </div>
     </Wrapper>
