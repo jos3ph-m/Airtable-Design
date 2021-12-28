@@ -4,7 +4,7 @@ import { MdClose } from 'react-icons/md'
 import { Link } from 'gatsby'
 import { GatsbyContext } from '../context/context'
 const Sidebar = () => {
-  const data = useContext(GatsbyContext)
+  const { links } = useContext(GatsbyContext)
   console.log(data)
   return (
     <Wrapper>
