@@ -8,7 +8,7 @@ const Sidebar = () => {
 
   return (
     <Wrapper>
-      <div className="container">sidebar component</div>
+      <div className="container"></div>
     </Wrapper>
   )
 }
