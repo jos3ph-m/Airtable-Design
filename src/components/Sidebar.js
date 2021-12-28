@@ -12,7 +12,11 @@ const Sidebar = () => {
         <button>
           <MdClose className="icon" />
         </button>
-        <div className="links">{links.map((link, index) => {})}</div>
+        <div className="links">
+          {links.map((link, index) => {
+            const { url, label, icon } = link
+          })}
+        </div>
       </div>
     </Wrapper>
   )
