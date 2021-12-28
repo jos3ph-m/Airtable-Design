@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import { GatsbyContext } from '../context/context'
 const Sidebar = () => {
   const { links } = useContext(GatsbyContext)
-  console.log(data)
+
   return (
     <Wrapper>
       <div className="container">sidebar component</div>
