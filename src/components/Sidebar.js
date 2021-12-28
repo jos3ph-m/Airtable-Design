@@ -8,7 +8,11 @@ const Sidebar = () => {
 
   return (
     <Wrapper>
-      <div className="container"></div>
+      <div className="container">
+        <button>
+          <MdClose />
+        </button>
+      </div>
     </Wrapper>
   )
 }
