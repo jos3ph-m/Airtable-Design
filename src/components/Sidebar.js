@@ -12,7 +12,7 @@ const Sidebar = () => {
         <button>
           <MdClose className="icon" />
         </button>
-        <div className="links"></div>
+        <div className="links">{links.map((link, index) => {})}</div>
       </div>
     </Wrapper>
   )
