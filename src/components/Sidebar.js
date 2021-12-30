@@ -18,6 +18,7 @@ const Sidebar = () => {
             return (
               <Link to={url} key={index}>
                 {icon}
+                {label}
               </Link>
             )
           })}
