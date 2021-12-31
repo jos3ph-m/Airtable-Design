@@ -3,7 +3,7 @@ import { Layout } from '../../components'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 const Payments = props => {
-  console.log(props)
+  const path = props.location.pathname.slice(1)
   return (
     <Layout>
       <Wrapper>
