@@ -10,7 +10,7 @@ const Payments = props => {
         <div>
           <h1>{path}</h1>
           <Link to="/" className="btn">
-            home
+            back home
           </Link>
         </div>
       </Wrapper>
