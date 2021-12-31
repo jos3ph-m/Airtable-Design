@@ -5,7 +5,11 @@ import { Link } from 'gatsby'
 const Payments = () => {
   return (
     <Layout>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <div>
+          <h1>path</h1>
+        </div>
+      </Wrapper>
     </Layout>
   )
 }
