@@ -2,7 +2,8 @@ import React from 'react'
 import { Layout } from '../../components'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-const Payments = () => {
+const Payments = props => {
+  console.log(props)
   return (
     <Layout>
       <Wrapper>
