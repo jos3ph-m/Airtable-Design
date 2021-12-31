@@ -3,11 +3,14 @@ import { Layout } from "../../components"
 import styled from "styled-components"
 import { Link } from "gatsby"
 const Payments = () => {
-  return 
+  return (
   <Layout>
-    
+    <Wrapper>
+
+    </Wrapper>
   </Layout>
   <h2>payments page</h2>
+  )
 }
 
 const Wrapper = styled.main`
