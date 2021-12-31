@@ -8,6 +8,9 @@ const Payments = () => {
       <Wrapper>
         <div>
           <h1>path</h1>
+          <Link to="/" className="btn">
+            home
+          </Link>
         </div>
       </Wrapper>
     </Layout>
