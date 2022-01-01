@@ -8,7 +8,7 @@ const Payments = props => {
     <Layout>
       <Wrapper>
         <div>
-          <h1>path</h1>
+          <h1>{path}</h1>
           <Link to="/" className="btn">
             home
           </Link>
@@ -30,7 +30,7 @@ const Wrapper = styled.main`
     color: var(--clr-white);
   }
   h1 {
-    font-size: 2rem;
+    font-size: 2rem;g
     color: var(--clr-primary-5);
     margin-bottom: 1.5rem;
   }
