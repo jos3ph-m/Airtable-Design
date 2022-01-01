@@ -8,6 +8,11 @@ const GatsbyContext = React.createContext()
 const GatsbyProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
   const [links, setLinks] = useState(sublinks)
+
+  const showSidebar = () => {
+    setIsSidebarOpen(true)
+  }
+
   return (
     <GatsbyContext.Provider value={{ isSidebarOpen, links }}>
       {children}
