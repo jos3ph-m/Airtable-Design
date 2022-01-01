@@ -8,7 +8,7 @@ const Payments = props => {
     <Layout>
       <Wrapper>
         <div>
-          <h1>path</h1>
+          <h1>{path}</h1>
           <Link to="/" className="btn">
             home
           </Link>
