@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="design" />
           </Link>
-          <button className="toggle-btn">
+          <button className="toggle-btn" onClick={showSidebar}>
             <GoThreeBars />
           </button>
         </div>
