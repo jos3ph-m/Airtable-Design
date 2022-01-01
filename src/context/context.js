@@ -13,6 +13,10 @@ const GatsbyProvider = ({ children }) => {
     setIsSidebarOpen(true)
   }
 
+  const hideSidebar = () => {
+    setIsSidebarOpen(false)
+  }
+
   return (
     <GatsbyContext.Provider value={{ isSidebarOpen, links }}>
       {children}
