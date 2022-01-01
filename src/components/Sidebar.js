@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <Wrapper>
       <div className="container">
-        <button onClick={hideSidebar}>
+        <button>
           <MdClose className="icon" />
         </button>
         <div className="links">
