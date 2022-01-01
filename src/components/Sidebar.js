@@ -4,12 +4,12 @@ import { MdClose } from 'react-icons/md'
 import { Link } from 'gatsby'
 import { GatsbyContext } from '../context/context'
 const Sidebar = () => {
-  const { links } = useContext(GatsbyContext)
+  const { links, hideSidebar } = useContext(GatsbyContext)
 
   return (
     <Wrapper>
       <div className="container">
-        <button>
+        <button onClick={hideSidebar}>
           <MdClose className="icon" />
         </button>
         <div className="links">
