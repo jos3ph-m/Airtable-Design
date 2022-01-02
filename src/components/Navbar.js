@@ -14,6 +14,7 @@ const Navbar = () => {
       })
     ),
   ]
+  console.log(tempLinks)
   return (
     <Wrapper>
       <div className="nav-center">
