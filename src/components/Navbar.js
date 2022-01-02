@@ -7,7 +7,7 @@ import NavLink from './NavLink'
 import { GatsbyContext } from '../context/context'
 const Navbar = () => {
   const { isSidebarOpen, showSidebar } = useContext(GatsbyContext)
-  const tempLinks = []
+  const tempLinks = [...new Set(links)]
   return (
     <Wrapper>
       <div className="nav-center">
