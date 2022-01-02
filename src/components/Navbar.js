@@ -28,7 +28,11 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <ul className="nav-links"></ul>
+        <ul className="nav-links">
+          {tempLinks.map((page, index) => {
+            return <NavLink key={index} page={page} />
+          })}
+        </ul>
       </div>
     </Wrapper>
   )
