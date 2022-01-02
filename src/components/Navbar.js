@@ -28,17 +28,6 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <ul className="nav-links">
-          <li>
-            <button>products</button>
-          </li>
-          <li>
-            <button>developers</button>
-          </li>
-          <li>
-            <Link to="/products/payments">company</Link>
-          </li>
-        </ul>
       </div>
     </Wrapper>
   )
