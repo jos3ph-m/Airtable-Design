@@ -28,6 +28,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
+        <ul className="nav-links"></ul>
       </div>
     </Wrapper>
   )
