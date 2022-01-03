@@ -5,7 +5,11 @@ import { Link } from 'gatsby'
 import { GatsbyContext } from '../context/context'
 const NavLink = ({ page }) => {
   const { links } = useContext(GatsbyContext)
-  return <Wrapper>nav link</Wrapper>
+  return (
+    <Wrapper>
+      <button></button>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.li`
