@@ -20,7 +20,7 @@ const NavLink = ({ page }) => {
             )
           }
         })}
-        <div></div>
+        <div className="caret"></div>
       </div>
     </Wrapper>
   )
