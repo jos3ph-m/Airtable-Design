@@ -7,7 +7,11 @@ const GridProjects = ({ projects, title }) => {
   return (
     <Wrapper>
       <Title title={title || 'projects'} />
-      <div className="title-layout">{projects.map((project, index))}</div>
+      <div className="title-layout">
+        {projects.map((project, index) => {
+          return article
+        })}
+      </div>
     </Wrapper>
   )
 }
