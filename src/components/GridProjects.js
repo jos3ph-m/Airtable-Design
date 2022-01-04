@@ -10,6 +10,7 @@ const GridProjects = ({ projects, title }) => {
       <div className="title-layout">
         {projects.map((project, index) => {
           const { id } = project
+          const { name, type } = project.data
           return article
         })}
       </div>
