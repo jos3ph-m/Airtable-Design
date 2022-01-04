@@ -7,7 +7,7 @@ const NavLink = ({ page }) => {
   const { links } = useContext(GatsbyContext)
   return (
     <Wrapper>
-      <button></button>
+      <button>{page}</button>
     </Wrapper>
   )
 }
