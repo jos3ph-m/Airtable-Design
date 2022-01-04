@@ -9,6 +9,7 @@ const GridProjects = ({ projects, title }) => {
       <Title title={title || 'projects'} />
       <div className="title-layout">
         {projects.map((project, index) => {
+          const { id } = project
           return article
         })}
       </div>
