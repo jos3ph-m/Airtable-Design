@@ -11,6 +11,7 @@ const GridProjects = ({ projects, title }) => {
         {projects.map((project, index) => {
           const { id } = project
           const { name, type } = project.data
+          const image = project.data.image.localFiles[0]
           return article
         })}
       </div>
