@@ -12,7 +12,7 @@ const GridProjects = ({ projects, title }) => {
           const { id } = project
           const { name, type } = project.data
           const image = project.data.image.localFiles[0]
-          return article
+          return <article key={id}></article>
         })}
       </div>
     </Wrapper>
