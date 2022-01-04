@@ -4,9 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 const GridProjects = ({ projects, title }) => {
-  return (
-    <h2>grid projects</h2>
-  )
+  return <Wrapper>grid projects</Wrapper>
 }
 
 const Wrapper = styled.section`
