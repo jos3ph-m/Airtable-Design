@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 const GridProjects = ({ projects, title }) => {
   return (
     <Wrapper>
-      <Title></Title>
+      <Title title={title}></Title>
     </Wrapper>
   )
 }
