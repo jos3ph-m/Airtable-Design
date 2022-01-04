@@ -8,6 +8,7 @@ const NavLink = ({ page }) => {
   return (
     <Wrapper>
       <button>{page}</button>
+      
     </Wrapper>
   )
 }
