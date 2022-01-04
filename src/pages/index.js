@@ -30,7 +30,7 @@ export const query = graphql`
   {
     allAirtable(
       filter: { table: { eq: "Projects" } }
-      limit: 3
+      limit: 4
       sort: { fields: data___date, order: DESC }
     ) {
       nodes {
