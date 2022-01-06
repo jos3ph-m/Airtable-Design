@@ -17,6 +17,7 @@ const GridProjects = ({ projects, title }) => {
               <GatsbyImage image={getImage(image)} alt={name} className="img" />
               <div className="info">
                 <p>- {type} -</p>
+                <h3>{name}</h3>
               </div>
             </article>
           )
