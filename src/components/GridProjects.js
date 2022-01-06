@@ -84,7 +84,7 @@ const Wrapper = styled.section`
     .tile-layout {
       display: grid;
       grid-template-areas:
-        'a b c'
+        'a b b'
         'a c d';
       .div-0 {
         grid-area: a;
