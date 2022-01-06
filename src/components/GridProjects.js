@@ -14,7 +14,7 @@ const GridProjects = ({ projects, title }) => {
           const image = project.data.image.localFiles[0]
           return (
             <article key={id} className={`div-${index}`}>
-              <GatsbyImage image={getImage(image)} alt={name} />
+              <GatsbyImage image={getImage(image)} alt={name} className="img" />
             </article>
           )
         })}
