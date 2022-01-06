@@ -23,6 +23,9 @@ const GridProjects = ({ projects, title }) => {
           )
         })}
       </div>
+      <Link to="/projects" className="btn">
+        all projects
+      </Link>
     </Wrapper>
   )
 }
